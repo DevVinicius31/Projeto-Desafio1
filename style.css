@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    font-family: 'inter';  
+}
+
+#Titulo-superior{
+    font-family:'inter';
+    color: #FFFFFF;
+    margin-left: 30px;
+    padding-top: 150px;
+    font-size: 50px;
+}
+#texto-superior{
+color: #FFFFFF;
+font-family:'inter';
+font-size: 20px;
+text-align: left;
+margin-left: 30px;
+margin-top: 10px;
+
+}
+#parte-superior{
+    background-color: #303030;
+   height: 350px;
+}
+
+
+
+
+#car-info{
+    background-color: #F9F9F9;
+   display: flex;
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   display: grid;
+   grid-auto-flow: column;
+   columns: 200px;
+}
+
+.tit-inf{
+ color:  #000000;
+ font-size: 30px;
+ font-weight: bolder;
+ position: absolute;
+ display:grid;
+ margin-left: 170px;
+ margin-top: 30px;
+ 
+}
+
+.para{
+    margin-top: 65px;
+    margin-left: 170px;
+}
+
+
+#titulo-meio{
+    font-weight:500;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+#par-meio{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#video{
+margin-left: 60%;
+margin-top: -25%;
+padding-bottom: 60px;
+}
+
+
+
+
+#formulario{
+    background-color:#303030;
+    display: grid;
+    grid-column: auto;
+    height: 550px;
+}
+
+#titulo-forms{
+color: #F9F9F9;
+text-align: center;
+margin-top: 90px;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+ input{
+width: 400px;
+height: 50px;
+margin: -60px;
+border: 0px;
+border-radius: 10px;
+background-color: #FFFFFF;
+padding-left: 50px;
+margin-left: 35%;
+margin-bottom: 80px;
+}
+
+#button{
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #C07212;
+    font-weight: bolder;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -260px;
+    
+}
+button:hover{
+    box-shadow: 0px 15px 20px #000000;
+    transform: translateY(-8px);
+    transition: 0.5s;
+   
+    
+}
+    
+
